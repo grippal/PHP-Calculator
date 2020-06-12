@@ -1,0 +1,29 @@
+/* STYLES GO HERE */
+/* STYLES GO HERE */
+/* STYLES GO HERE */
+body, html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  font-size: 12px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+body.home-page {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 1fr 10%;
+  grid-template-areas: "nav social" "hi mac" "scroll scroll";
+}
+
+/* STYLES GO HERE */
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+/*# sourceMappingURL=main.css.map */
